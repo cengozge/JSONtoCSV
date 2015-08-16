@@ -31,6 +31,7 @@ public class Finder {
 			LOGGER.log(Level.SEVERE, e.getLocalizedMessage(), e);
 		} 
 	}
+	
 	public static JSONArray readJsonArrayFromUrl(String cityName) throws IOException, JSONException {
 		URL url = new URL("http://api.goeuro.com/api/v2/position/suggest/en/".concat(cityName));
 		JSONArray array = null;
