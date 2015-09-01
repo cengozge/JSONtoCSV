@@ -17,6 +17,7 @@ import org.json.JSONTokener;
 
 public class Finder {
 
+	
 	private static final Logger LOGGER = Logger.getLogger(Finder.class.getName());
 	private static String city = "";
 	
